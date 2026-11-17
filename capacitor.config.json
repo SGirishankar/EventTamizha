@@ -1,0 +1,21 @@
+{
+  "appId": "in.eventtamizha.app",
+  "appName": "Event Tamizha",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_event360",
+      "iconColor": "#1D4ED8"
+    }
+  }
+}

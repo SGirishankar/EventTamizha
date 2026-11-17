@@ -1,0 +1,61 @@
+{
+  "id": "/",
+  "name": "Event Tamizha — பந்தல் · விளக்கு · அலங்காரம்",
+  "short_name": "Event Tamizha",
+  "description": "Pandal, lighting and decoration services across Tamil Nadu.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#1D4ED8",
+  "lang": "ta",
+  "categories": [
+    "lifestyle",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cart",
+      "short_name": "Cart",
+      "url": "./#/cart",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "My bookings",
+      "short_name": "Bookings",
+      "url": "./#/orders",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
